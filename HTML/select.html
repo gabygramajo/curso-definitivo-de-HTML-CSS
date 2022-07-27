@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Select</title>
+</head>
+<body>
+  <h2>Forma 1</h2>
+  <form action="">
+    <select name="cursos" id="">
+      <option value="javascript">JavaScript</option>
+      <option value="html5">HTML5</option>
+      <option value="css3">CSS3</option>
+      <option value="web-standards">Web Standards</option>
+    </select>
+    <input type="submit">
+  </form>
+
+  <h2>Forma 2 con buenas prácticas</h2>
+  <form action="">
+    <input list="cursos">
+    <datalist id="cursos">
+      <option value="javascript"></option>
+      <option value="java"></option>
+      <option value="html5"></option>
+      <option value="css3"></option>
+      <option value="web-standards"></option>
+    </datalist>
+  </form>
+</body>
+</html>
