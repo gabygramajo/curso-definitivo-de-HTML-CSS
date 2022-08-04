@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+.container {
+  /* border: 1px solid black; */
+  width: 300px;
+  height: 350px;
+  margin: 0 auto;
+  margin-top: 30px;
+  position: relative;
+}
+.title{
+  background-color: #00D7FF;
+  text-align: center;
+  color: white;
+  width: 360px;
+  position: absolute;
+  right: -1px;
+  top: -1px;
+}
+.laptop-container {
+  background-color: #5800FF;
+  width: 370px;
+  height: 100%;
+  border-radius: 50%;
+}
+.laptop {
+  width: 400px;
+  position: absolute;
+  top: 30px;
+}
+.text {
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  background-color: #FFC23C;
+  font-weight: bold;
+  border-radius: 50%;
+  display: grid;
+  place-content: center;
+  position: absolute;
+  bottom: 20px;
+}
+.windows-logo {
+  width: 100px;
+  position: absolute;
+  top: 65px;
+  left: 40px;
+}
