@@ -1,0 +1,21 @@
+.container {
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.cuadro-1 {
+  order: 2;
+  width: 40%;
+}
+.cuadro-2 {
+  order: 3;
+  width: 35%;
+}
+.cuadro-3 {
+  order: 1;
+  width: calc(60% - 10px);
+}
+.cuadro-4 {
+  order: 4;
+  width: calc(65% - 10px);
+}

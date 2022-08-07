@@ -1,0 +1,19 @@
+.container {
+  justify-content: space-evenly;
+}
+.cuadro-1,
+.cuadro-2 {
+  width: calc(50% - 10px);
+}
+.cuadro-1 {
+  order: 2;
+}
+.cuadro-2 {
+  order: 3;
+}
+.cuadro-3 {
+  order: 1;
+}
+.cuadro-4 {
+  order: 4;
+}
